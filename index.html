@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+
+  <section class ="container">
+
+     <div clas s="container-hero">
+           <h1 class ="container-hero-title">Learn to code by watching others</h1>
+           <p class = "container-hero-paragraph">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+             but understanding how developers think is invaluable.</p>
+    </div>
+
+  <div class="col-right">
+    <div class="header">
+     <p class="header-right-text">
+       <span>Try it free 7 days</span> then $20/mo. thereafter
+     </p>
+    </div>
+
+  
+    <form action="#" method="post" class="signup-box">
+      <div class="content-right">
+         <div class="signup-form">
+           <input class="signup-form-input" type="text" placeholder="First Name" name="First name" id ="FirstName">
+           <svg class="error-icon" xmlns="http://www.w3.org/2000/svg">           
+          </svg>
+            <label for="FirstName" class="error-warning" data-for="First Name"></label>
+        </div>
+      <div class="signup-form">
+        <input class="signup-form-input" type="text" placeholder="Last Name" name="Last name" id ="LastName">
+        <svg class="error-icon" xmlns="http://www.w3.org/2000/svg">        
+        </svg>
+            <label for="LastName" class="error-warning" data-for="Last Name"></label>
+     </div>
+     <div class="signup-form">
+       <input class="signup-form-input" type="text" placeholder="Email Address" name="Email Address" id ="EmailAddress">
+       <svg class="error-icon" xmlns="http://www.w3.org/2000/svg">     
+       </svg>
+            <label for="EmailAddress" class="error-warning" data-for="Email Address"></label>
+    </div>
+    <div class="signup-form">
+      <input class="signup-form-input" type="text" aria-label="Password" aria-labelledby="password-label" placeholder="Password" name="Password" id ="Password">
+      <svg class="error-icon" xmlns="http://www.w3.org/2000/svg">     
+      </svg>
+        <label for="Password" class="password-label" data-for="Password"></label>
+    </div>
+      <button class="button-signup">
+        Claim your free trial
+      </button>
+      <p class="signup-form-terms">By clicking the button, you are agreeing to our 
+        <a href="#" class="button-text">Terms and Services</a></p>  
+      </div> 
+   </form>
+</section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Bon Lozano</a>.
+    </p>
+  </footer>
+  <script src="simple.js"></script>
+</body>
+</html>
